@@ -1,0 +1,50 @@
+html{
+}
+body{
+    height: 100%;
+    margin: 0;
+    background: #fff;
+}
+
+
+.wrap{
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+}
+.header{
+    top: 0;
+    position: relative;
+    width: 100%;
+    background: #000000;
+    height: 80px;
+}
+.content{
+    position: relative;
+    margin: 100px 0 100px 0;
+    line-height: 1.6;
+}
+.content h1{
+    text-align: center;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: #000000;
+}
+.footer h4{
+    text-align: center;
+    padding: 30px 0 0 0;
+    color: #DDDDDD;
+}
+.index-image{
+    max-width: 100%;
+    height: auto;
+}
+@media(max-width: 485px){
+    .index-image{
+        margin-top: 80px;
+    }
+}
